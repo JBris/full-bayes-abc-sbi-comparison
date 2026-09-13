@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "full-bayes-abc-sbi-comparison"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <J.Bristow2@massey.ac.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+sbi = "^0.27.0"
+zuko = "^1.6.0"
+nflows = "^0.14"
+scikit-learn = "^1.9.1"
+matplotlib = "^3.11.2"
+numpy = "<2.5.3"
+pyro-ppl = "^1.9.1"
+notebook = "^7.6.2"
+jupyterhub = "^6.0.0"
+jupyterlab = "^4.6.3"
+jupyter-core = "^5.9.1"
+ipywidgets = "^8.1.9"
+ipython = "^9.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
